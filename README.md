@@ -15,7 +15,7 @@ A Nintendo 3DS eShop remake built with libctru.
 
 
 > [!NOTE]
-> This project is not finished, and is not currently in active development.
+> This project is not finished, and is not currently in active development. Ensure you back up your SysNAND before even trying to use this.
 
 ## v1 Checklist
 - [x] License
