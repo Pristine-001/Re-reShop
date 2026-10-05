@@ -1,7 +1,8 @@
 # Re-reShop
 A Nintendo 3DS eShop remake built with libctru. And revived by me
 
-# Uh this is a fork and it in no-were near finished or really started this is aimed to be a revival of reshop an external app to reshop
+> **Warning**
+ Uh this is a fork and it in no-were near finished or really started this is aimed to be a revival of reshop an external app to reshop
 
 
 
