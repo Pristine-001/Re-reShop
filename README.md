@@ -14,6 +14,8 @@ A Nintendo 3DS eShop remake built with libctru. And revived by me
 
 [![](https://dcbadge.limes.pink/api/server/dCSgz7KERv)](https://discord.unitendo.org/)
 
+[![](https://dcbadge.limes.pink/api/server/https/dVH8X3Tut)](https://discord.unitendo.org/)
+
 <img alt="gitleaks badge" src="https://img.shields.io/badge/protected%20by-gitleaks-blue">
 
 ## v1 Checklist
