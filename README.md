@@ -1,23 +1,19 @@
-# reShop
-A Nintendo 3DS eShop remake built with libctru.
+# Re-reShop
+A Nintendo 3DS eShop remake built with libctru. And revived by me
+
+## Uh this is a fork and it in no-where near finished or really started this is aimed to be a revival of reshop an external app to reshop
 
 
 
-[Check our website!](https://unitendo.org/reShop)
+[Check out the creators website!](https://unitendo.org/reShop)
 
 
-[Join our Discord!](https://discord.unitendo.org/)
+[Join their Discord!](https://discord.unitendo.org/)
 
 
 [![](https://dcbadge.limes.pink/api/server/dCSgz7KERv)](https://discord.unitendo.org/)
 
 <img alt="gitleaks badge" src="https://img.shields.io/badge/protected%20by-gitleaks-blue">
-
-
-> [!NOTE]
-> This project has been cancelled.
-> Use at everyone's risk.
-> Thank you.
 
 ## v1 Checklist
 - [x] License
