@@ -6,10 +6,9 @@ A Nintendo 3DS eShop remake built with libctru. And revived by me
 
 
 
-[Check out the creators website!](https://unitendo.org/reShop)
+[Check out the creators website!](https://startendo.org)
 
-
-[Join their Discord!](https://discord.unitendo.org/)
+[Join their Discord!](https://discord.startendo.org/)
 
 
 [![](https://dcbadge.limes.pink/api/server/dVH8X3Tut)](https://discord.unitendo.org/)
