@@ -733,28 +733,28 @@ int main() {
                 scene = 2;
             }
             C2D_SceneBegin(bottom);
-            DrawText("reShop is still in early alpha.\n\n Please consider this while using the app and report bugs if possible.", 0.0f, 0.0f, 0, 0.5f, 0.5f, C2D_Color32(0, 0, 0, 255), true);
+            DrawText("Re-reShop is still in early alpha.\n\n Please consider this while using the app and report bugs if possible.", 0.0f, 0.0f, 0, 0.5f, 0.5f, C2D_Color32(0, 0, 0, 255), true);
         }
 
         // Download news once
         if (!newsdownloaded) {
-            createDirectoryRecursive("/3ds/reShop/news");
-            download("http://104.236.25.60/reShop/news/today.txt", "/3ds/reShop/news/today.txt");
-            news = readFileToBuffer("/3ds/reShop/news/today.txt", &size);
+            createDirectoryRecursive("/3ds/Re-reShop/news");
+            download("http://104.236.25.60/Re-reShop/news/today.txt", "/3ds/Re-reShop/news/today.txt");
+            news = readFileToBuffer("/3ds/Re-reShop/news/today.txt", &size);
             newsdownloaded = true;
         }
 
         // Load and parse content once
         if (!contentloaded) {
-            createDirectoryRecursive("/3ds/reShop/temp");
+            createDirectoryRecursive("/3ds/Re-reShop/temp");
             
             // Ensure downloads succeed
-            if (!download("http://104.236.25.60/reShop/cdn/section/1/applisting.json", "/3ds/reShop/temp/applisting.txt") ||
-                !download("http://104.236.25.60/reShop/cdn/section/1/apps.t3x", "/3ds/reShop/temp/apps.t3x")) {
+            if (!download("http://104.236.25.60/Re-reShop/cdn/section/1/applisting.json", "/3ds/Re-reShop/temp/applisting.txt") ||
+                !download("http://104.236.25.60/Re-reShop/cdn/section/1/apps.t3x", "/3ds/Re-reShop/temp/apps.t3x")) {
                 contentloaded = false;
             }
 
-            apps = C2D_SpriteSheetLoad("/3ds/reShop/temp/apps.t3x");
+            apps = C2D_SpriteSheetLoad("/3ds/Re-reShop/temp/apps.t3x");
             if (!apps) {
                 apps = C2D_SpriteSheetLoad("romfs:/sprites.t3x");
                 if (!apps) {
@@ -762,7 +762,7 @@ int main() {
                 }
             }
 
-            char *jsonBuffer = readFileToBuffer("/3ds/reShop/temp/applisting.txt", &size);
+            char *jsonBuffer = readFileToBuffer("/3ds/Re-reShop/temp/applisting.txt", &size);
             if (!jsonBuffer) {
                 contentloaded = false;
             }
@@ -1080,12 +1080,12 @@ int main() {
                 total_size = appList[tappedbox].size;
                 if (strcmp(appList[tappedbox].type, "cia") == 0) {
                     iscia = true;
-                    dl = startDownload(appList[tappedbox].url, "/3ds/reShop/temp/install.cia");
+                    dl = startDownload(appList[tappedbox].url, "/3ds/Re-reShop/temp/install.cia");
                 } else {
                     dl = startDownload(appList[tappedbox].url, "/3ds/app.3dsx");
                     iscia = false;
                 }
-               // download(url, "/3ds/reShop/temp/install.cia");
+               // download(url, "/3ds/Re-reShop/temp/install.cia");
                 downloadbegun = true;
             }
 
@@ -1099,7 +1099,7 @@ int main() {
                 DrawText("Installing...", 0.0f, 220.0f, 0, 0.5f, 0.5f, C2D_Color32(0, 0, 0, 255), false);
                 if (installoccuring == false) {
                     if (iscia == true) {
-                        burger = installCIA("/3ds/reShop/temp/install.cia");
+                        burger = installCIA("/3ds/Re-reShop/temp/install.cia");
                     }
                 }
                 scene = 6;
