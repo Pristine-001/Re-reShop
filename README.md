@@ -51,7 +51,7 @@ sudo dkp-pacman -S 3ds-dev 3ds-opusfile 3ds-curl 3ds-mbedtls 3ds-zlib 3ds-bzip2 
 Depending on your platform, you may not need sudo or dkp-.
 Then, run the following commands:
 ```bash
-git clone https://github.com/Unitendo/reShop/
-cd reShop
+git clone https://github.com/Pristine-001/Re-reShop
+cd Re-reShop
 make
 ```
