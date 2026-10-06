@@ -15,19 +15,19 @@ A Nintendo 3DS eShop remake built with libctru. And revived by me
 
 <img alt="gitleaks badge" src="https://img.shields.io/badge/protected%20by-gitleaks-blue">
 
-## v1 Checklist
-- [x] License
+## v1 Checklist (remake)
+- [?] License
 - [x] Basic framework 
 - [x] Basic rendering
 - [x] Streamed Audio (Using @VirtuallyExisting's custom implementation)
 - [x] httpc downloading based off of devkitpro's example
-- [x] CIA Installation from SD Card
+- [ ] CIA Installation from SD Card
 - [x] Grabbing listings, descriptions, and icons off of a server
-- [x] Downloading and Installing apps
-- [x] Downloading Animation
-- [x] Closed Beta
-- [x] Complete GUI
-- [x] eShop-ify the entire interface (make it look as similar as possible)
+- [ ] Downloading and Installing apps
+- [?] Downloading Animation
+- [ ] Closed Beta
+- [ ] Complete GUI
+- [ ] eShop-ify the entire interface (make it look as similar as possible)
 - [x] Open Beta
 
 ## v2 Checklist
